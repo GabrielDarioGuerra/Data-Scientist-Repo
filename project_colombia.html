@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title> Home </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="icon" href="images/favicon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  </head>
+  
+  <body>
+  
+    <header class="container">
+  
+    </header>
+  
+    <main>
+      <header id="header">
+  
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand aos-init aos-animate visible">
+          <div class="container header">
+  
+            <!-- Navbar Brand-->
+            <a class="navbar-brand" href="index.html">
+              Portfolio
+  
+            </a>
+  
+            <!-- Nav holder -->
+  
+  
+            <!-- Navbar Items -->
+            <ul class="navbar-nav items navbar-responsive">
+              <li class="nav-item dropdown">
+                <a href="index.html" target="_blank" class="nav-link smooth-anchor">Home <i class="icon-arrow-down"></i></a>
+  
+              </li>
+              <li class="nav-item">
+                <a href="about.html" target="_blank" class="nav-link smooth-anchor">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="project.html" class="nav-link smooth-anchor">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="./funfact.html" class="nav-link smooth-anchor">Fun Facts</a>
+              </li>
+            </ul>
+  
+            <!-- Navbar Icons -->
+  
+  
+            <!-- Navbar Toggle -->
+            <ul class="navbar-nav toggle">
+              <li class="nav-item">
+                <a href="#" class="nav-link-item" data-toggle="modal" data-target="#menu" id="show">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </a>
+              </li>
+            </ul>
+  
+            <!-- Navbar Action -->
+            <ul class="navbar-nav action navbar-responsive">
+              <li class="nav-item ml-3">
+                <a href="mailto:gabriel.guerra@hotmail.de" target="_blank" class="btn ml-lg-auto primary-button smooth-anchor contact-us"><i class="icon-speech"></i>CONTACT
+                  US</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  
+      </header>
+
+      <div id="menu" class="p-0 modal fade show" role="dialog" aria-labelledby="menu" style="display: none;"
+      aria-modal="true">
+      <div class="modal-dialog modal-dialog-slideout" role="document">
+        <div class="modal-content full">
+          <div class="modal-header" data-dismiss="modal">
+            Menu <svg id="hide" class="toggle" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="13" width="18.3848" height="2.2981" rx="1.14905" transform="rotate(-45 0 13)" fill="#1e50bc" />
+              <rect x="1.625" width="18.3848" height="2.2981" rx="1.14905" transform="rotate(45 1.625 0)"
+                fill="#1e50bc" />
+            </svg>
+          </div>
+          <div class="menu modal-body">
+            <div class="row w-100">
+              <div class="items p-0 col-12 text-center">
+                <ul class="navbar-nav items">
+                  <li class="nav-item dropdown">
+                    <a href="index.html" target="_blank" class="nav-link smooth-anchor responsive-menu prevent">Home <i class="icon-arrow-down"></i></a>
+
+                  </li>
+                  <li class="nav-item">
+                    <a href="about.html" target="_blank" class="nav-link responsive-menu smooth-anchor">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="project.html" target="_blank" class="nav-link responsive-menu smooth-anchor">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./funfact.html" target="_blank" class="nav-link responsive-menu smooth-anchor">Fun Facts</a>
+                  </li>
+                  <li class="nav-item ml-3">
+                    <a href="mailto:gabriel.guerra@hotmail.de" target="_blank" class="btn ml-lg-auto  primary-button smooth-anchor"><i class="icon-speech"></i>CONTACT
+                      US</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="contacts p-0 col-12 text-center">
+                <!-- Append [navbar] -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- TITLE SECTION -->
+      <section class="container text-center hero">
+        <div class="row slide-content-main">
+            <h1  data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text about-me-main mt-0 mt-lg-5" style="text-align: left;">
+                <span id="title-one">Colombian Data Science Project</span>
+            </h1>
+            
+        </div>
+      </section>
+    
+        <!-- PROJECTS-->
+        <section class="container text-center pt-5 pt-md-0 mt-0 mt-lg-5">
+            <p  data-aos="zoom-out-up" data-aos-delay="500" >In my data science project on Colombia, I analyze demographic data and compare cities and regions across Colombia. By exploring data sets and applying statistical techniques, I uncover valuable insights and trends about population characteristics and distribution.</p>
+
+            <p  data-aos="zoom-out-up" data-aos-delay="600">Through meticulous data collection, preprocessing and analysis, I have gained a comprehensive understanding of the demographics and population dynamics in the different cities and regions of Colombia. By visualizing the data with interactive charts, graphs, and images, I present the results in a clear and informative manner.</p>
+            
+            <p  data-aos="zoom-out-up" data-aos-delay="700">In this project, I compare the population sizes of different cities and regions, explore the factors that influence population growth, and look at the population distribution across the country. Additionally, I analyze the demographic structure and identify any notable patterns or disparities.</p>
+            
+               
+            <style>
+                .image-container {
+                    overflow: hidden;
+                }
+            
+                .image-container img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            
+            <section class="container text-center">
+  
+                <div class="row">
+                    <div   class="col-lg-4 col-md-4">
+                        <div  data-aos="zoom-out-up" data-aos-delay="300" class="image-container">
+                            <img class="img-fluid subheadings-img" id="image-1" src="images/1updated_colombia_cities_population_byregion.png" alt="Image 1" />
+                        </div>
+                        <p data-aos="zoom-out-up" data-aos-delay="300" class="image-description">Explore the Distribution of Population Across Different Areas of Colombia</p>
+                    </div>
+                
+                    <div   class="col-lg-4 col-md-4">
+                        <div data-aos="zoom-out-up" data-aos-delay="400" class="image-container">
+                            <img class="img-fluid subheadings-img" id="image-2" src="images/2updated_colombia_cities_population_top10.png" alt="Image 2" />
+                        </div>
+                        <p data-aos="zoom-out-up" data-aos-delay="400" class="image-description">Discover the Top 10 Cities in Colombia by Population</p>
+                    </div>
+                
+                    <div  class="col-lg-4 col-md-4">
+                        <div data-aos="zoom-out-up" data-aos-delay="500" class="image-container">
+                            <img class="img-fluid subheadings-img" id="image-3" src="images/3updated_colombia_department_area.png" alt="Image 3" />
+                        </div>
+                        <p data-aos="zoom-out-up" data-aos-delay="500" class="image-description">Explore the Area of Departments in Colombia</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div   class="col-lg-4 col-md-4">
+                        <div data-aos="zoom-out-up" data-aos-delay="600" class="image-container">
+                            <img class="img-fluid subheadings-img" id="image-4" src="images/4updated_colombia_cities_decade.png" alt="Image 4" />
+                        </div>
+                        <p data-aos="zoom-out-up" data-aos-delay="700" class="image-description">Explore the Population of Colombia by Decade</p>
+                    </div>
+                
+                    <div   class="col-lg-4 col-md-4">
+                        <div data-aos="zoom-out-up" data-aos-delay="600" class="image-container">
+                            <img class="img-fluid subheadings-img" id="image-5" src="images/5updated_colombia_cities_population_change.png" alt="Image 5" />
+                        </div>
+                        <p data-aos="zoom-out-up" data-aos-delay="700" class="image-description">Track the Annual Population Change of Colombia Over Time</p>
+                    </div>
+                
+                    <div  class="col-lg-4 col-md-4">
+                        <div data-aos="zoom-out-up" data-aos-delay="700" class="image-container">
+                            <img class="img-fluid subheadings-img" id="image-6" src="images/6updated_colombia_cities_population_time.png" alt="Image 6" />
+                        </div>
+                        <p data-aos="zoom-out-up" data-aos-delay="700" class="image-description">Visualize the Population of Colombia Over Time</p>
+                    </div>
+                </div>
+                
+            </section>
+            
+        
+    
+    </main>
+    
+    <footer>
+        <section id="copyright" class="p-3 mt-0 copyright">
+          <div class="container">
+              <div class="row justify-content-between">
+                  <div class="col-12 col-md-6 p-3 text-center text-lg-left">
+                      <!-- <p class="pb-0">Enjoy the low price. We are tracking any intention of piracy.</p> -->
+                      <!--
+                          Suggestion: Replace the text above with a description of your website.
+                       -->
+                  </div>
+               
+             
+                  <div class="col-12 col-md-6 p-3 ">
+                    <ul class="social-icons pb-0">
+                      <li class="me-3"><a class="facebook" href="https://wa.me/41774449042" target="_blank"><img src="./images/fb.svg" alt=""></a></li>
+                      <li class="me-3"><a class="twitter" href="mailto:gabriel.guerra@hotmail.de" target="_blank"><img src="./images/mail.svg" alt=""></a></li>
+                      <li class="me-3"><a class="dribbble" href="https://www.instagram.com/gabedariog/" target="_blank"><img src="./images/insta.svg" alt=""></a></li>
+                      <li class="me-3"><a class="dribbble" href="https://github.com/Bondi121" target="_blank"><img src="./images/github.svg" alt=""></a></li>
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/gabriel-guerra-113387107/" target="_blank"><img src="./images/linkden.svg" alt=""></a></li>   
+                    </ul>
+                  </div>
+              </div>
+          </div>
+      </section>
+      </footer>
+    
+    
+      <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"></script>
+    <!-- <script src="js/partial.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+    <script>
+      AOS.init();
+    </script>
+    <script>
+  
+  
+      $(document).ready(function () {
+        $(".nav-link-item").click(function () {
+          $("#menu").show("")
+        });
+  
+        $("#hide").click(function () {
+          $("#menu").hide()
+        });
+  
+      });
+  
+      // click outside
+      $(document).mouseup(function (e) {
+        var container = $("aside");
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+          $("aside").removeClass("close")
+        }
+      });
+  
+    </script>
+  
+</body>
+</html>
